@@ -11,4 +11,6 @@ ReactDOM.render(
 )
 
 
-// build functyion that generates a ocntract which is the nft
+// build function that generates a contract which is the nft
+// solidity is inspired by classes and inheritance in javascript
+// does not have rules about indentation
