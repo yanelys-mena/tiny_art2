@@ -37,4 +37,10 @@ contract TinyArt is ERC721, ERC721URIStorage, Ownable {
         _setTokenURI(tokenId, uri);
         eixstingURIs[uri] = 1;
     }
+
+    // If it finds something it returns 1, else nothing.
+    // Solidity does not have truthy or falsy. It only has the boolean type. So this should be an expression. Equality is expressed as a boolean. It does not have "truthy" or 'falsy" values.
+    function isContentOwned(string memory uri) public view returns (bool) {
+        return existingURIs[uri] == 1;
+    }
 }
