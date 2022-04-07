@@ -9,3 +9,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 )
+
+
+// build functyion that generates a ocntract which is the nft
